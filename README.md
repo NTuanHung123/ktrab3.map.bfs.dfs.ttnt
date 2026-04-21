@@ -1,4 +1,3 @@
-# ktrab3.map.bfs.dfs.ttnt
 # 🤖 Maze Solving with BFS & DFS
 
 ## 📌 Giới thiệu
