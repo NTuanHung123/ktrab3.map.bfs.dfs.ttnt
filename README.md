@@ -20,14 +20,14 @@ Robot sẽ tìm đường từ điểm bắt đầu `S` đến điểm đích `G
 
 ## 🗂️ Cấu trúc thư mục
 - maps/
-- maze_basic.py    # Lưu bản đồ mê cung đơn giản (dạng ma trận 2D)
-- maze_hard.py     # Lưu bản đồ mê cung nâng cao, độ khó cao hơn
+- maze_basic.py: Lưu bản đồ mê cung đơn giản (dạng ma trận 2D)
+- maze_hard.py: Lưu bản đồ mê cung nâng cao, độ khó cao hơn
 
 - src/
-- bfs_solver.py    # Triển khai thuật toán BFS (tìm đường theo chiều rộng)
-- dfs_solver.py    # Triển khai thuật toán DFS (tìm đường theo chiều sâu)
-- core_logic.py    # Các hàm tiện ích: xử lý tọa độ, hiển thị mê cung
-- main.py          # Điểm bắt đầu chương trình, dùng để chạy và test
+- bfs_solver.py: Triển khai thuật toán BFS (tìm đường theo chiều rộng)
+- dfs_solver.py: Triển khai thuật toán DFS (tìm đường theo chiều sâu)
+- core_logic.py: Các hàm tiện ích: xử lý tọa độ, hiển thị mê cung
+- main.py:  Điểm bắt đầu chương trình, dùng để chạy và test
 - README.md
 
 
