@@ -20,14 +20,14 @@ Robot sẽ tìm đường từ điểm bắt đầu `S` đến điểm đích `G
 
 ## 🗂️ Cấu trúc thư mục
 ├── maps/
-│ ├── maze_basic.py # Mê cung cơ bản
-│ └── maze_hard.py # Mê cung phức tạp
+│   ├── maze_basic.py    # Lưu bản đồ mê cung đơn giản (dạng ma trận 2D)
+│   └── maze_hard.py     # Lưu bản đồ mê cung nâng cao, độ khó cao hơn
 │
 ├── src/
-│ ├── bfs_solver.py # Cài đặt BFS
-│ ├── dfs_solver.py # Cài đặt DFS
-│ ├── core_logic.py # Hàm hỗ trợ
-│ └── main.py # File chạy chính
+│   ├── bfs_solver.py    # Triển khai thuật toán BFS (tìm đường theo chiều rộng)
+│   ├── dfs_solver.py    # Triển khai thuật toán DFS (tìm đường theo chiều sâu)
+│   ├── core_logic.py    # Các hàm tiện ích: xử lý tọa độ, hiển thị mê cung
+│   └── main.py          # Điểm bắt đầu chương trình, dùng để chạy và test
 │
 └── README.md
 
@@ -35,4 +35,5 @@ Robot sẽ tìm đường từ điểm bắt đầu `S` đến điểm đích `G
 ---
 
 ## ⚙️ Cách chạy chương trình
- Mở terminal tại thư mục gốc chạy python src/main.py
+ Mở terminal tại thư mục gốc chạy
+ python src/main.py
